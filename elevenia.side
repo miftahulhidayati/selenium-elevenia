@@ -1,0 +1,318 @@
+{
+  "id": "c3e99b4c-3bac-4370-9e32-588f5721c24b",
+  "version": "2.0",
+  "name": "elevenia",
+  "url": "https://www.elevenia.co.id",
+  "tests": [{
+    "id": "55f069f9-08c4-45e8-ab65-da45b7a05898",
+    "name": "cart add",
+    "commands": [{
+      "id": "8d2cdfdd-b3b8-40cb-b10d-674bfdc7ea4b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "687b2595-0728-4aa4-a8be-1936f94d81d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc4910ec-5d0c-4b35-8816-9853e7d26cd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-close",
+      "targets": [
+        ["css=.btn-close", "css:finder"],
+        ["xpath=//div[@id='mainPopBanner']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:closeLayer333();')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed0bdef-6aff-44cb-93b5-1aebe88b1bc5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=image",
+      "targets": [
+        ["name=image", "name"],
+        ["css=.topBannerLazy", "css:finder"],
+        ["xpath=//img[@alt='merdeka']", "xpath:img"],
+        ["xpath=//img[@name='image']", "xpath:attributes"],
+        ["xpath=//a[@id='eleveniaTopBanner']/img", "xpath:idRelative"],
+        ["xpath=//p/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efbc5661-b7f8-49ce-8f9c-b2def61e8ef4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=image",
+      "targets": [
+        ["name=image", "name"],
+        ["css=.topBannerLazy", "css:finder"],
+        ["xpath=//img[@alt='merdeka']", "xpath:img"],
+        ["xpath=//img[@name='image']", "xpath:attributes"],
+        ["xpath=//a[@id='eleveniaTopBanner']/img", "xpath:idRelative"],
+        ["xpath=//p/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5982d3d-e0a3-4497-8937-169492f38c3f",
+      "comment": "",
+      "command": "click",
+      "target": "id=AKCKwd",
+      "targets": [
+        ["id=AKCKwd", "id"],
+        ["css=#AKCKwd", "css:finder"],
+        ["xpath=//input[@id='AKCKwd']", "xpath:attributes"],
+        ["xpath=//form[@id='AKCFrm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7fc36cc-d427-419c-969f-89563325001e",
+      "comment": "",
+      "command": "type",
+      "target": "id=AKCKwd",
+      "targets": [
+        ["id=AKCKwd", "id"],
+        ["css=#AKCKwd", "css:finder"],
+        ["xpath=//input[@id='AKCKwd']", "xpath:attributes"],
+        ["xpath=//form[@id='AKCFrm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "komputer"
+    }, {
+      "id": "b0920881-53ef-4322-994d-9bc8e58786fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-big .btn-search",
+      "targets": [
+        ["css=.header-big .btn-search", "css:finder"],
+        ["xpath=//button[@onclick='goSearch(); return false;']", "xpath:attributes"],
+        ["xpath=//form[@id='AKCFrm']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cari')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50ef79f7-a131-4d3e-ad30-09ee97313b69",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Produk terlaris",
+      "targets": [
+        ["linkText=Produk terlaris", "linkText"],
+        ["css=.linkSort > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Produk terlaris')]", "xpath:link"],
+        ["xpath=(//a[@name='sortCdBtn'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='searchCondition_wrap']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[40]", "xpath:href"],
+        ["xpath=//article[2]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Produk terlaris')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c0f8999-48fc-4553-a923-a2d2579ec313",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,149)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfab973c-d9d1-49b4-81b6-547260419a6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#prod_28911164 img",
+      "targets": [
+        ["css=#prod_28911164 img", "css:finder"],
+        ["xpath=//img[@alt='JOYSEUS Wireless Mouse 1800DPI USB Computer 2.4GHz Mouse - MS0003']", "xpath:img"],
+        ["xpath=//li[@id='prod_28911164']/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cfde92-813b-4e92-8cfd-e0019a6d17de",
+      "comment": "",
+      "command": "click",
+      "target": "id=optionStock0",
+      "targets": [
+        ["id=optionStock0", "id"],
+        ["name=optionStock", "name"],
+        ["css=#optionStock0", "css:finder"],
+        ["xpath=//input[@id='optionStock0']", "xpath:attributes"],
+        ["xpath=//li/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5733f3e-4268-405c-99ec-e4950a047c77",
+      "comment": "",
+      "command": "type",
+      "target": "id=optionStock0",
+      "targets": [
+        ["id=optionStock0", "id"],
+        ["name=optionStock", "name"],
+        ["css=#optionStock0", "css:finder"],
+        ["xpath=//input[@id='optionStock0']", "xpath:attributes"],
+        ["xpath=//li/div/div/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "feebb483-4e13-47da-a403-23570dad9599",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnL:nth-child(1)",
+      "targets": [
+        ["css=.btnL:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tambahkan ke Cart')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:_InitLayer(); _goBasketProduct(); facbookPixelAddToCart();')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e06565f-8434-4a37-92e9-40813727955f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ya",
+      "targets": [
+        ["linkText=Ya", "linkText"],
+        ["css=#mo_lay144 .btnRed", "css:finder"],
+        ["xpath=//a[contains(text(),'Ya')]", "xpath:link"],
+        ["xpath=//div[@id='mo_lay144']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.elevenia.co.id/cart/CartAction/getCartList.do']", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f3d56ff-ae4e-4f2f-af19-4b21d284b626",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ubah Kurir",
+      "targets": [
+        ["linkText=Ubah Kurir", "linkText"],
+        ["name=deliveryChangePopup", "name"],
+        ["css=.terms > .btnStyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Ubah Kurir')]", "xpath:link"],
+        ["xpath=//a[@name='deliveryChangePopup']", "xpath:attributes"],
+        ["xpath=//form[@id='frmTmall']/table/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#none')])[2]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ubah Kurir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d3a45c3-7d4d-4210-8f02-b894014a6efb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ubah Kurir",
+      "targets": [
+        ["linkText=Ubah Kurir", "linkText"],
+        ["name=deliveryChangePopup", "name"],
+        ["css=.terms > .btnStyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Ubah Kurir')]", "xpath:link"],
+        ["xpath=//a[@name='deliveryChangePopup']", "xpath:attributes"],
+        ["xpath=//form[@id='frmTmall']/table/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#none')])[2]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ubah Kurir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a761bfd0-9cf1-4afd-8961-baf0a425d808",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Ubah Kurir",
+      "targets": [
+        ["linkText=Ubah Kurir", "linkText"],
+        ["name=deliveryChangePopup", "name"],
+        ["css=.terms > .btnStyle", "css:finder"],
+        ["xpath=//a[contains(text(),'Ubah Kurir')]", "xpath:link"],
+        ["xpath=//a[@name='deliveryChangePopup']", "xpath:attributes"],
+        ["xpath=//form[@id='frmTmall']/table/tbody/tr/td[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#none')])[2]", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ubah Kurir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b82f2a1e-e64e-4682-9f17-0863af1c6b69",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "36ce5d9c-7546-4e3a-80ca-35926efaa934",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form[@id='frm']/article/p[3]/a[2]",
+      "targets": [
+        ["linkText=Batal", "linkText"],
+        ["css=.btnWGray", "css:finder"],
+        ["xpath=//a[contains(text(),'Batal')]", "xpath:link"],
+        ["xpath=//form[@id='frm']/article/p[3]/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:closeLayer();')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Batal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "346a52c0-654e-4983-83c7-7bc5e842030d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "d07cdb49-25e1-492c-b1d4-50e3525bcc9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Hapus",
+      "targets": [
+        ["linkText=Hapus", "linkText"],
+        ["css=.btn > .btnWGray", "css:finder"],
+        ["xpath=//a[contains(text(),'Hapus')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"javascript:funcDirectDel('269211559')\"]", "xpath:attributes"],
+        ["xpath=//form[@id='frmTmall']/table/tbody/tr/td[7]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//td[7]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Hapus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10383a94-5bac-4225-ab5d-d5f8fb8eb250",
+      "comment": "",
+      "command": "click",
+      "target": "id=chkDelPopY",
+      "targets": [
+        ["id=chkDelPopY", "id"],
+        ["linkText=OK", "linkText"],
+        ["css=#chkDelPopY", "css:finder"],
+        ["xpath=(//a[contains(text(),'OK')])[2]", "xpath:link"],
+        ["xpath=//a[@id='chkDelPopY']", "xpath:attributes"],
+        ["xpath=//article[@id='popCon4']/p/span[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:CheckDelPop('Y');\")]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "30596161-b317-48bf-aa2e-0ab83022b032",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55f069f9-08c4-45e8-ab65-da45b7a05898"]
+  }],
+  "urls": ["https://www.elevenia.co.id/"],
+  "plugins": []
+}
