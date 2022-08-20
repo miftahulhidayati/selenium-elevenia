@@ -25,5 +25,5 @@ automation selenium ide using selenium ide
 
 - if you using chrome
 - install selenium ide extensions,
-- then open an exiting project choose [FILE](selenium-elevenia/elevenia.side)
+- then open an exiting project choose [FILE](elevenia.side)
 - and then Ctrl+R or click run
