@@ -21,10 +21,13 @@ Automate your test cases with minimal coding.
 
 ### Generate result report
 
-- on terminal execute `mvn test`
-- generate result report `mvn verify -DskipTest`
-- open folder target/cucumber-report-html
-- open file feature-overview.html in browser
+#### To run test
+```bash
+mvn test
+```
+#### To generate result test
+```bash
+mvn verify -DskipTests
 
 ## automation-selenium-ide
 
