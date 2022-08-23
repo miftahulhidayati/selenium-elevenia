@@ -1,0 +1,254 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-23T05:06:52.819Z",
+        "line": 4,
+        "name": "I add cart",
+        "description": "",
+        "id": "elevenia-cart;i-add-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7781975000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to \"https://www.elevenia.co.id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.elevenia.co.id\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDef.CartElevenia.iNavigateTo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150179200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"computer\" into input field having xpath \"//*[@id\u003d\u0027AKCKwd\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"computer\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"//*[@id\u003d\u0027AKCKwd\u0027]\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDef.CartElevenia.iEnterIntoInputFieldHavingXpath(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1589727400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click button search having xpath \"//*[@id\u003d\u0027AKCFrm\u0027]/div/button\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//*[@id\u003d\u0027AKCFrm\u0027]/div/button\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDef.CartElevenia.iClickButtonSearchHavingXpath(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235968800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click sort by most buying having xpath \"//*[@id\u003d\u0027searchCondition_wrap\u0027]/div[1]/ul/li[2]/a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//*[@id\u003d\u0027searchCondition_wrap\u0027]/div[1]/ul/li[2]/a\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDef.CartElevenia.iClickSortByMostBuyingHavingXpath(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2730635000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click product having xpath \"//*[@id\u003d\u0027prod_28911164\u0027]/div/a[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//*[@id\u003d\u0027prod_28911164\u0027]/div/a[2]\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.CartElevenia.iClickProductHavingXpath(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232807000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"3\" into input field having id \"optionStock0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"optionStock0\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDef.CartElevenia.iEnterIntoInputFieldHavingId(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79013200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click button add to cart having xpath \"/html/body/section/section/form[1]/div[1]/div[3]/div[6]/a[1]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/html/body/section/section/form[1]/div[1]/div[3]/div[6]/a[1]\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDef.CartElevenia.iClickButtonAddToCartHavingXpath(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1493119100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I check cart",
+            "match": {
+              "location": "StepDef.CartElevenia.iCheckCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166751000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click Change Delivery having name \"deliveryChangePopup\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deliveryChangePopup\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDef.CartElevenia.iClickChangeDeliveryHavingName(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 755092500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click cancel by xpath \"//*[@id\u003d\u0027frm\u0027]/article/p[3]/a[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//*[@id\u003d\u0027frm\u0027]/article/p[3]/a[2]\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDef.CartElevenia.iClickCancelByXpath(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120678000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click delete by xpath \"//*[@id\u003d\u0027frmTmall\u0027]/table/tbody/tr/td[7]/a[2]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"//*[@id\u003d\u0027frmTmall\u0027]/table/tbody/tr/td[7]/a[2]\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDef.CartElevenia.iClickDeleteByXpath(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 773895100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click yes on delete pop up by id \"chkDelPopY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chkDelPopY\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDef.CartElevenia.iClickYesOnDeletePopUpById(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47545900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Show note Empty Cart",
+            "match": {
+              "location": "StepDef.CartElevenia.showNoteEmptyCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Elevenia Cart",
+    "description": "  As a user I should be able to add cart and delete cart",
+    "id": "elevenia-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CartElevenia.feature",
+    "tags": []
+  }
+]

@@ -19,6 +19,13 @@ Automate your test cases with minimal coding.
   or [Geckodriver](https://github.com/mozilla/geckodriver/releases)
 - [Maven](https://maven.apache.org/download.cgi)
 
+### Generate result report
+
+- on terminal execute `mvn test`
+- generate result report `mvn verify -DskipTest`
+- open folder target/cucumber-report-html
+- open file feature-overview.html in browser
+
 ## automation-selenium-ide
 
 automation selenium ide using selenium ide
